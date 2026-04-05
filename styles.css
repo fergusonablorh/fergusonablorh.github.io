@@ -181,7 +181,7 @@ h2 {
     white-space: nowrap;
     border-right: 2px solid #dcdcdc;
     width: 0;
-    animation: typing 2s steps(20) forwards, blink 1s step-end infinite;
+    animation: typing 2s steps(17) forwards, blink 1s step-end infinite;
 }
 
 @keyframes typing {
@@ -189,7 +189,7 @@ h2 {
         width: 0;
     }
     to {
-        width: 20ch;
+        width: 17ch;
     }
 }
 
